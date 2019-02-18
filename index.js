@@ -21,6 +21,38 @@ if (today === "Monday") {
 }
 
 if (tomorrow !== "") {
-    console.log(`Tomorow will be ${tomorow}`);
+    console.log(`Tomorrow will be ${tomorow}`);
 }
 
+// solution with SWITCH
+/* 
+switch (today) {
+    case "Monday":
+    tomorrow = "Tuesday";
+    break;
+    case "Tuesday":
+    tomorrow = "Wednesday";
+    break;
+    case "Wednesday":
+    tomorrow = "Thursday";
+    break;
+    case "Thursday":
+    tomorrow = "Friday";
+    break;
+    case "Friday":
+    tomorrow = "Saturday";
+    break;
+    case "Saturday":
+    tomorrow = "Sunday";
+    break;
+    case "Sunday":
+    tomorrow = "Monday";
+    break;
+    default:
+    console.log ("Unknown day")
+}
+
+if (tomorrow !== ""){
+    console.log(`Tomorrow will be ${tomorrow}`);
+}
+*/
