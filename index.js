@@ -39,7 +39,7 @@ function tomorrowDay() {
 
     if (tomorrow !== "") {
         console.log(`Tomorrow will be ${tomorrow}`);
-        $(document.body).append(`<p>Tomorrow will be ${tomorrow} </p> `);
+        $(document.body).append(`<p>Today is ${today}, so Tomorrow will be <b> ${tomorrow} </b></p> `);
     }
 
 }
