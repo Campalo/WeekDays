@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>WeekDays</title>
+    <link rel="stylesheet" href="bootstrap.css">
+        <title>WeekDays</title>
 </head>
 
 <body>
@@ -17,7 +18,7 @@
 <!-- l'événement onchange est délenché uniquement si la nouvelle valeur selectionnée est différente de la précédente
 Quand onchange est déclenché, il déclenche à son tour la fonction ChangeDay-->
 <div class="form-group">
-    <label for="todayName">Select Today's day to know Tomorrow's day!</label>
+    <label for="todayName"><h2>Select Today's day to know Tomorrow's day!</h2></label>
     <select onchange="changeDay()" class="form-control" id="todayName">
       <option>Monday</option>
       <option>Tuesday</option>
@@ -29,7 +30,7 @@ Quand onchange est déclenché, il déclenche à son tour la fonction ChangeDay-
     </select>
 </div>
 
-    <!-- scripts: jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- scripts: jQuery first, then Popper.js, Bootstrap JS, then index.js-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
