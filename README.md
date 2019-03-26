@@ -1,7 +1,5 @@
 # Simple WeekDay game 
 
-_Work in progress_
-
 Simple app to know what is the day after today. The answer is printed in the console. 
 
 Written in: 
